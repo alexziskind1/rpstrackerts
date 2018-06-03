@@ -7,8 +7,6 @@ import {
 } from '~/core/models/domain';
 import { handleFetchErrors } from '~/infrastructure/fetch-error-handler';
 
-export const CURRENT_USER_KEY = 'CURRENT_USER_KEY';
-
 export class AuthRepository implements PtAuthRepository {
   constructor(public apiEndpoint: string) {}
 
